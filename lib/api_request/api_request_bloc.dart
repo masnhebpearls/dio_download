@@ -21,10 +21,10 @@ class ApiRequestBloc extends Bloc<ApiRequestEvent, ApiRequestState> {
       // final dir = await getApplicationDocumentsDirectory();
       // final newDir =  await getExternalStorageDirectories();
       final tempDir = await getDownloadsDirectory();
-      final String path = "${tempDir!.path}/${DateTime.now()}demoapp.jpg";
+      final String path = "${tempDir!.path}${DateTime.now()}demoapp.jpg";
+      print(path);
       await dio.download(event.downloadUrl, path,
           onReceiveProgress: (rec, total) {
-
             emit(DownloadingState(downloaded: rec, total: total));
           }
       );
