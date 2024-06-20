@@ -38,9 +38,17 @@ dependencies:
   dio: ^5.4.3+1
   bloc: ^8.1.4
   flutter_bloc: ^8.1.6
+  auto_route: ^8.2.0
+  firebase_storage: ^12.0.1
+  image_picker: ^1.1.2
+  firebase_core: ^3.1.0
+  liquid_progress_indicator_v2: ^0.5.0
+
   path_provider:
 
 dev_dependencies:
+  auto_route_generator:
+  build_runner:
   flutter_test:
     sdk: flutter
 

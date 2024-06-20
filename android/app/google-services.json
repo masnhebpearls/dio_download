@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "94923914223",
+    "firebase_url": "https://apirequest-a666d-default-rtdb.firebaseio.com",
+    "project_id": "apirequest-a666d",
+    "storage_bucket": "apirequest-a666d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94923914223:android:6eae75ffc8ce84bcd7d41a",
+        "android_client_info": {
+          "package_name": "com.example.dio_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpI4bREyiik9y8CgUXMEM2nIAWi3GKDWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
